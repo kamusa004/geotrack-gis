@@ -6,6 +6,8 @@ Built for the Mbarara University of Science and Technology (MUST) GIS assignment
 
 > **One-page design.** Everything the lecturer needs to see is on a single dashboard (`index.php`). The `api/*.php` files are JSON endpoints, not extra pages.
 
+![GeoTrack GIS dashboard](docs/dashboard.jpg)
+
 ---
 
 ## 1. What the application does
