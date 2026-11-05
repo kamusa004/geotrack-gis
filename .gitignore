@@ -1,0 +1,27 @@
+# Local configuration (may contain the database password)
+config/config.local.php
+
+# Runtime state: rate-limit counters and caches
+storage/cache/*
+storage/rate/*
+!storage/cache/.gitkeep
+!storage/rate/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,14 @@
+# GeoTrack GIS — Python dependencies
+
+# Core GIS libraries (used for accurate geodesic calculations and spatial analysis).
+geopy>=2.4.1
+pyproj>=3.6.1
+shapely>=2.0.4
+
+# Optional helpers (useful for extensions; the module works without them if unavailable).
+numpy>=1.26.4
+pytz>=2024.1
+dateutil>=2.9.0.post0
+
+# Development/testing only.
+pytest>=8.2.0
